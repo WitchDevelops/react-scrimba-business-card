@@ -19,11 +19,13 @@
   width: 75%;
      padding: 3rem;
      display: flex;
+     flex-direction: column;
      align-content: center;
      justify-content: center;
-     width: 317px; 
+     max-width: 417px; 
     background-color: var(--grey-900); 
     font-family: 'Inter', san-serif;
     text-align: center;
-    border-radius: 10px
+    border-radius: 10px;
+    color: var(--grey-100);
 }
