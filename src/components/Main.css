@@ -1,4 +1,7 @@
+.main {
+    padding-inline: 3rem;
+}
 .main__header {
     color: var(--blue);
-
+    
 }

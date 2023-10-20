@@ -1,7 +1,7 @@
-
+import "./Footer.css";
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <p>© 2023 Dominika Wojewska</p>
     </footer>
   )
