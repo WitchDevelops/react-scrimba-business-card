@@ -6,7 +6,7 @@ import "../components/Header.css";
 const Header = () => {
   return (
     <header className="header">
-        <img className="header__image" src="/src/assets/round.png"></img>
+        <img className="header__image" src="https://raw.githubusercontent.com/WitchDevelops/react-scrimba-business-card/main/src/assets/round.png"></img>
       <h1 className="header__text--main">Dominika Wojewska</h1>
       <h2 className="header__text--sub">Frontend Developer</h2>
       <a className="header__link" href="https://mokosh.dev/">
