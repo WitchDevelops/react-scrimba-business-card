@@ -10,14 +10,23 @@
 }
 .header__text--main {
   color: var(--grey-100);
+  font-size: clamp(2.5rem, 2.2943rem + 1.0063vw, 3.2rem);
 }
 .header__text--sub {
   color: var(--pink);
 }
 .header__link {
   color: var(--grey-100);
+  
   &:hover {
-    color: var(--blue)
+    color: var(--blue);
+    
+  }
+}
+.header__link svg {
+  fill: bar(--grey-100);
+  &:hover {
+    fill: var(--blue);
   }
 }
 

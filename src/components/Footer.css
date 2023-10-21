@@ -1,3 +1,36 @@
 .footer {
-    background-color: var(--blue);
+    background-color: var(--grey-800);
+    padding-block: 1rem;
+}
+
+.footer__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.footer__icon {
+    width: 24px;
+    height: 24px;
+    background-color: var(--grey-500);
+    padding: 6px;
+    border-radius: 4px;
+    &:hover {
+        background-color: var(--blue);
+        box-shadow: 0 0 20px 0 rgba(4, 138, 191, 0.8),
+        0 0 15px 5px rgba(14, 252, 247, 0.54),
+        inset 0 0 10px 0 #00D5FF;
+        color: var(--grey-100);
+      }
+}
+.footer__line {
+    width: 100%;
+    border-width: 0.5px;
+    border-color: var(--grey-500);
+}
+.footer__text {
+    margin: 0;
+    padding-block: 1rem;
+    font-size: 0.7rem;
 }

@@ -2,32 +2,14 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   background-color: #213547;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   background-size: 100% 100%;
-  background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px,
-    0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
-  background-image: radial-gradient(
-      18% 28% at 24% 50%,
-      #cefaffff 7%,
-      #073aff00 100%
-    ),
-    radial-gradient(18% 28% at 18% 71%, #ffffff59 6%, #073aff00 100%),
-    radial-gradient(70% 53% at 36% 76%, #0efcf7ff 0%, #073aff00 100%),
-    radial-gradient(42% 53% at 15% 94%, #ffffffff 7%, #073aff00 100%),
-    radial-gradient(42% 53% at 34% 72%, #ffffffff 7%, #073aff00 100%),
-    radial-gradient(18% 28% at 35% 87%, #ffffffff 7%, #073aff00 100%),
-    radial-gradient(31% 43% at 7% 98%, #c9d7fcff 24%, #073aff00 100%),
-    radial-gradient(21% 37% at 72% 23%, #bf69ba9c 24%, #073aff00 100%),
-    radial-gradient(35% 56% at 91% 74%, #5b329df5 9%, #073aff00 100%),
-    radial-gradient(74% 86% at 67% 38%, #04b2d9f5 24%, #073aff00 100%),
-    linear-gradient(125deg, #011c40ff 1%, #010d26ff 100%);
+  overflow: hidden;
 }
 
 a {
@@ -52,24 +34,6 @@ h1 {
   line-height: 1.1;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -78,8 +42,5 @@ button:focus-visible {
   }
   a:hover {
     color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
   }
 }
