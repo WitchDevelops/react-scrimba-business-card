@@ -1,27 +1,20 @@
-# React + TypeScript + Vite
+# About
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It's a project I build for a Scrimba React course - business card. I didn't like their design so I changed it completely to match my style.
 
-Currently, two official plugins are available:
+## Tech
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<div align="center">
+   <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/react.svg"/>
+   <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/typescript-icon.svg"/>
+   <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/vitejs.svg"/>
+   <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/netlify-icon.svg"/>
+</div>
 
-## Expanding the ESLint configuration
+## Live
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[Deployed to Netlify](https://dominika-wojewska.netlify.app/)
 
-- Configure the top-level `parserOptions` property like this:
+## Screenshot
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![image](https://github.com/WitchDevelops/react-scrimba-business-card/assets/112077394/6f4320d1-bc63-4af8-afa9-b2ab811d0df9)
